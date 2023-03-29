@@ -14,12 +14,16 @@ body {
   background-position: center;
   background-size: cover;
 }
+h1 h2 h3 h4 h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 .head2 {
   text-align: center;
   font-size: 70px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+
   font-weight: 100px;
   color: brown;
+  margin-top: 80px;
 }
 
 .navbar-nav {
@@ -34,6 +38,16 @@ body {
   font-size: 20px;
 }
 
+.button-links {
+  text-decoration: none;
+  color: #000;
+}
+
+.button-links:hover {
+  font-size: 20px;
+  color: #fff;
+}
+
 h1 {
   font-size: 100px;
   color: #fff;
@@ -41,12 +55,36 @@ h1 {
 h2 {
   margin-top: 30px;
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+
   font-size: 50px;
 }
-h5 {
-  font-size: 40px;
-  background-color: #fff;
-  text-align: center;
-  color: blue;
+
+.content {
+  margin-top: 70px;
+}
+
+.site-footer {
+  background-color: rgb(240, 240, 240);
+  margin-top: 100px;
+  display: f;
+}
+
+.site-footer a {
+  color: #000;
+  cursor: pointer;
+}
+
+.Kitchen {
+  display: inline;
+  margin-top: 20px;
+  padding: 10px;
+  color: #333333;
+}
+.text-center {
+  margin-top: 20px;
+  color: #333333;
+}
+
+.list li {
+  list-style: none;
 }
