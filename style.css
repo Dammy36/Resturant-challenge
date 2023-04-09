@@ -22,7 +22,7 @@ h1 h2 h3 h4 h5 {
   font-size: 70px;
 
   font-weight: 100px;
-  color: brown;
+  color: white;
   margin-top: 80px;
 }
 
@@ -41,6 +41,9 @@ h1 h2 h3 h4 h5 {
 .button-links {
   text-decoration: none;
   color: #000;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
 }
 
 .button-links:hover {
@@ -55,7 +58,6 @@ h1 {
 h2 {
   margin-top: 30px;
   text-align: center;
-
   font-size: 50px;
 }
 
@@ -65,8 +67,10 @@ h2 {
 
 .site-footer {
   background-color: rgb(240, 240, 240);
-  margin-top: 100px;
-  display: f;
+  margin-left: -0 auto;
+  padding: 0 auto;
+  width: 100%;
+  display: block;
 }
 
 .site-footer a {
@@ -87,4 +91,27 @@ h2 {
 
 .list li {
   list-style: none;
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 65px;
+  }
+  h2 {
+    font-size: 35px;
+    margin-top: 30px;
+  }
+  .head2 {
+    margin-bottom: 30px;
+  }
+
+  .col-mix {
+    margin-bottom: 30px;
+  }
+
+  .btn-outline-danger {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
 }
